@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
-	<title>Jonathan Bartolo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td, th { border: 1px solid #CCC; }
+        table { border: 1px solid black; }
+        </style>
 </head>
 <body>
-	<h1>Hello World 10SEP24</h1>
-	<h2>New Header</h2>
+    <header>
+        <h1>Heading H1</h1>
+    </header>
 
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur, nemo deleniti eos, voluptates, pariatur illo consectetur qui quis consequuntur voluptas porro beatae veritatis! Similique, dolorem laborum! Animi, odio quia?</p>
+    <article>
+        <h2> Heading H2</h2>
+        <ol>
+            <li>List</li>
+            <li>List</li>
+            <li>List</li>
+        </ol>
+        <pre>
+            This       is 
+            pre formatted       text
+        </pre>
+    </article>
+
+    <article>
+        <a href="home.html">Link to home.html</a>
+        <br>
+        <a href="htttps://www.google.com">Link to google</a>
+        <br>
+        <img src="https://th.bing.com/th/id/OIP.-ykukAQoEaWAWrP7mYGrPQAAAA?rs=1&pid=ImgDetMain" alt="Picture of cat" width="250px" >
+        <li>
+            <label>Favorite food: <input type="text" name="favfood"
+            value="Pizza" maxlength="50">
+            </label>
+            <input type="submit"> <input type="reset" value="Reset">
+        </li>
+
+        <table>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Food Menu</th>
+                <th rowspan="2"> Price</th>
+            </tr>
+            <tr>
+                <th>Side 1</th>
+                <th>Side 2</th>
+            </tr>
+            <tr>
+                <th>Pizza</th>
+                <td>Wings</td>
+                <td>Cheese Bread</td>
+                <td>$6</td>
+            </tr>
+            <tr>
+                <th>Spaghetti</th>
+                <td>Garlic Bread</td>
+                <td>Meatballs</td>
+                <td>$5</td>
+            </tr>
+            <tr>
+                <th>Hotdog</th>
+                <td>French Fries</td>
+                <td>Hash Browns</td>
+                <td>$4</td>
+            </tr>
+        </table>
+    </article>
 </body>
 </html>
