@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
-<body>
+<body onclick="greeting();">
     <h1>Home</h1>
 
     <script>
@@ -23,6 +23,11 @@
             i++;
         }
     document.write("<h1>sum of 1, 2 ..., 100 is " + sum2 + "</h1>");
+
+    function greeting(){
+        document.write("Hello world!")
+        document.write("Current time is" + Date())
+    }
 
     </script>
 </body>
